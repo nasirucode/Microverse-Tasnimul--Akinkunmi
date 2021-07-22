@@ -1,0 +1,50 @@
+html, body{
+    text-align:right;
+    height:100%;
+    width:100%;
+    }
+    nav ul li{
+    list-style:none;
+    text-align:right;
+    display:inline-block;
+    margin:10px;
+    margin-top:20px;
+    margin-bottom:15em;
+    }
+     
+    #navbar{
+    position:fixed;
+    top:0;
+    width:100%;
+    }
+    
+    a{
+    text-decoration: none;
+    }
+    
+    #welcome-section{
+    text-align:center;
+    margin-bottom:40em;
+    height:937px;
+    min-height:100px;
+    margin-top:30em;
+    }
+    #projects{
+    text-align:center;
+    }
+    img{
+    width:170px;
+    height:100%;
+    }
+    #profile-link{
+    display:inline-block;
+    overflow:hidden;
+      text-decoration: none;
+    margin:50px;
+    }
+    @media (max-height: 100%)
+    {
+     #welcome-section
+    {
+      
+      }}
